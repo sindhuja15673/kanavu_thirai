@@ -267,6 +267,45 @@ img { display: block; max-width: 100%; }
   .gallery-overlay { padding: 25px 10px 10px; }.gallery-overlay strong { font-size: 11px; }.gallery-overlay svg { right: 8px; bottom: 10px; }.process-grid { grid-template-columns: 1fr; }.process-step { display: flex; align-items: flex-start; gap: 19px; }.process-step > span { width: 37px; flex-shrink: 0; font-size: 23px; }.cta { padding: 60px 0; }.cta-inner { gap: 20px; }.cta-icon { width: 58px; height: 58px; }.cta-buttons { flex-direction: column; }.footer-grid { grid-template-columns: 1fr; }.footer-brand { grid-column: auto; }.footer-bottom { font-size: 9px; } }
 
 
+/* =========================
+   MOBILE HEADER FIX
+   ========================= */
+
+@media (max-width: 780px) {
+  .nav-wrap {
+    height: 64px;
+  }
+
+  .nav-inner {
+    height: 64px;
+    width: calc(100% - 32px);
+    gap: 10px;
+  }
+
+  .brand {
+    width: 150px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+
+  .brand-logo {
+    width: 250px;
+    height: 78px;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-bottom: -40px;
+  }
+
+  .nav-quote {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+    padding: 8px;
+  }
+}
   /* Works page header logo */
 
   .works-page .brand,
