@@ -339,3 +339,23 @@ img { display: block; max-width: 100%; }
     height: 48px;
   }
 }
+
+/* Platinum package - View Details button */
+.package-card.platinum .button-outline-dark {
+  color: #e9b93f !important;
+  border-color: #e9b93f !important;
+}
+
+.package-card.platinum .button-outline-dark svg {
+  color: #e9b93f !important;
+}
+
+.package-card.platinum .button-outline-dark:hover {
+  color: #ffffff !important;
+  background: #e9b93f !important;
+  border-color: #e9b93f !important;
+}
+
+.package-card.platinum .button-outline-dark:hover svg {
+  color: #ffffff !important;
+}
