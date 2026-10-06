@@ -85,9 +85,10 @@ export default function WorksPage({ works, focusTitle, onBack }: WorksPageProps)
                 className="work-card"
                 key={work.title}
                 ref={(el) => { sectionRefs.current[work.title] = el; }}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
+                animate={{ opacity: 1, y: 0 }}
+                // initial={{ opacity: 0, y: 24 }}
+                // whileInView={{ opacity: 1, y: 0 }}
+                // viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.5, delay: (index % 3) * 0.06 }}
               >
                 <div className="work-copy">

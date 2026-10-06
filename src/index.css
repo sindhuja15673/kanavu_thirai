@@ -268,7 +268,9 @@ img { display: block; max-width: 100%; }
 
 
   /* Works page header logo */
-.works-page,.site-shells .brand {
+
+  .works-page .brand,
+.site-shells .brand {
   width: 180px;
   height: 68px;
   overflow: hidden;
@@ -276,7 +278,8 @@ img { display: block; max-width: 100%; }
   align-items: center;
 }
 
-.works-page,.site-shells .brand-logo {
+.works-page .brand-logo,
+.site-shells .brand-logo {
   width: 180px;
   height: 55px;
   object-fit: contain;
@@ -285,12 +288,14 @@ img { display: block; max-width: 100%; }
 
 /* Mobile */
 @media (max-width: 780px) {
-  .works-page,.site-shells .brand {
+  .works-page .brand,
+.site-shells .brand {
     width: 150px;
     height: 68px;
   }
 
-  .works-page,.site-shells .brand-logo {
+  .works-page .brand-logo,
+.site-shells .brand-logo {
     width: 150px;
     height: 48px;
   }
